@@ -10,11 +10,22 @@
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
+[Rr]eleases/
 x64/
 build/
 bld/
 [Bb]in/
 [Oo]bj/
+
+# Build tools (except nuget)
+/[Tt]ools/*
+!/[Tt]ools/nuget
+
+# Temprary build files
+[Ww]orking/
+
+# Roslyn cache directories
+*.ide/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
